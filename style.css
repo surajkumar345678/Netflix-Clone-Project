@@ -162,6 +162,13 @@ nav button {
     right: 28px;
 }
 
+.third .secImg video{
+    top: 35px;
+    right: 110px;
+    height: 210px;
+}
+
+
 section.first>div {
     display: flex;
     flex-direction: column;
@@ -177,4 +184,6 @@ section.first>div :nth-child(2) {
     font-weight: 400;
     margin: 1rem 0 0;
 }
+
+
 
