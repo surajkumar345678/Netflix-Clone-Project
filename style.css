@@ -12,17 +12,17 @@ body {
 
 .main {
     background-image: url("./assets/images/background.jpg");
-    height: 70vh;
+    height: 95vh;
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    border-bottom: 7px rgb(44, 44, 44) solid;
+    border-bottom: 8px rgb(44, 44, 44) solid;
 
 }
 
 .main .box {
-    height: 70vh;
+    height: 95vh;
     width: 100%;
     opacity: 0.7;
     background-color: black;
@@ -125,3 +125,56 @@ nav button {
     background-color: transparent;
     border: 1px solid rgba(245, 245, 245, 0.5);
 }
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 80vh;
+    margin: auto;
+    color: white;
+    border-bottom: 7px rgb(44, 44, 44) solid;
+
+    
+}
+.secFirstText{
+    max-width: 40vw;
+    justify-content: center;
+   
+}
+
+.secImg {
+    position: relative;
+
+}
+
+.secImg img {
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secImg video {
+    position: absolute;
+    top: 75px;
+    right: 28px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0 0;
+}
+
