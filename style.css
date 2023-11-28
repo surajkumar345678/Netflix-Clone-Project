@@ -41,7 +41,7 @@ nav {
 }
 
 nav img {
-    color: #550508;
+    color: #a9050f;
     width: 150px;
     position: relative;
     z-index: 10;
@@ -105,17 +105,22 @@ nav button {
 
 .btn-red,
 .hero2 .btn-red {
-    background-color: red;
+    display: flex;
+    background-color: #e50914;
     color: white;
-    padding: 0.7rem 2rem;
+    padding-right: 0.5rem;
+    padding: 0.8rem 2rem;
     font-size: 1.4rem;
     border: none;
     border-radius: 0.25rem;
     font-weight: 700;
 }
+.btn-red svg{
+    padding-left: 0.75rem;
+}
 
 .btn-red-sm {
-    background-color: red;
+    background-color: #e50914;
     color: white;
 }
 
