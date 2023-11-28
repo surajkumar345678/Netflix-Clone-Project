@@ -17,7 +17,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    border-bottom: 8px rgb(44, 44, 44) solid;
+    border-bottom: 8px #232323 solid;
 
 }
 
@@ -134,14 +134,15 @@ nav button {
     height: 80vh;
     margin: auto;
     color: white;
-    border-bottom: 7px rgb(44, 44, 44) solid;
+    border-bottom: 8px #232323 solid;
 
-    
+
 }
-.secFirstText{
+
+.secFirstText {
     max-width: 40vw;
     justify-content: center;
-   
+
 }
 
 .secImg {
@@ -162,7 +163,7 @@ nav button {
     right: 28px;
 }
 
-.third .secImg video{
+.third .secImg video {
     top: 35px;
     right: 110px;
     height: 210px;
@@ -185,5 +186,33 @@ section.first>div :nth-child(2) {
     margin: 1rem 0 0;
 }
 
+.faq {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    border-bottom: 8px #232323 solid;
 
 
+}
+
+.faq h2 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 25px;
+    margin: 10px auto;
+    max-width: 70vw;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 1s ease-out;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+}
