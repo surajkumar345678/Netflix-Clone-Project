@@ -31,17 +31,18 @@ body {
 }
 
 nav {
-    max-width: 60vw;
-    height: 50px;
+    max-width: 75vw;
+    height: 30px;
     margin: auto;
+    padding-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 nav img {
-    color: red;
-    width: 120px;
+    color: #550508;
+    width: 150px;
     position: relative;
     z-index: 10;
 }
@@ -51,9 +52,10 @@ nav button {
     z-index: 10;
 }
 
-.hero {
+.hero,
+.hero2 {
     font-family: 'Martel Sans', sans-serif;
-    height: 100%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,12 +63,11 @@ nav button {
     color: white;
     position: relative;
     gap: 20px;
-    padding: 0px 30px;
 }
 
 .hero> :nth-child(1) {
-    font-weight: bolder;
-    font-size: 48px;
+    font-weight: 900;
+    font-size: 50px;
     text-align: center;
 }
 
@@ -82,48 +83,65 @@ nav button {
     text-align: center;
 }
 
+.hero2> :nth-child(1) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
 .btn {
     padding: 3px 8px;
     font-weight: 400;
     color: white;
     background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 0.25rem;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.btn-red {
+.btn-red,
+.hero2 .btn-red {
     background-color: red;
     color: white;
-    padding: 3px 3px;
-    font-size: 20px;
-    border-radius: 5px;
-    font-weight: 400;
-
+    padding: 0.7rem 2rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 700;
 }
 
 .btn-red-sm {
     background-color: red;
     color: white;
-
-
 }
 
-.hero-btn {
+.hero-btn,
+.hero-btn2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 15px;
 }
 
-.main input {
+.main input,
+.hero2 input {
     color: white;
-    padding: 7px 100px 8px 14px;
-    font-weight: bold;
-    font-size: 12px;
-    border-radius: 5px;
-    background-color: transparent;
+    padding: 1rem 10rem 1rem 1rem;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 0.25rem;
+    background-color: #0f0f0f99;
     border: 1px solid rgba(245, 245, 245, 0.5);
+}
+
+.main input::placeholder,
+.hero2 input::placeholder {
+    color: white;
+    opacity: 0.7;
 }
 
 .first {
@@ -136,25 +154,21 @@ nav button {
     color: white;
     border-bottom: 8px #232323 solid;
 
-
 }
 
 .secFirstText {
     max-width: 40vw;
     justify-content: center;
-
 }
 
 .secImg {
     position: relative;
-
 }
 
 .secImg img {
     width: 38vw;
     position: relative;
     z-index: 10;
-
 }
 
 .secImg video {
@@ -192,8 +206,6 @@ section.first>div :nth-child(2) {
     text-align: center;
     padding: 35px;
     border-bottom: 8px #232323 solid;
-
-
 }
 
 .faq h2 {
@@ -217,27 +229,29 @@ section.first>div :nth-child(2) {
     background-color: #414141;
 }
 
-footer{
+footer {
     color: white;
     max-width: 60vw;
     margin: auto;
     padding: 14px;
 }
-footer .questions{
+
+footer .questions {
     padding: 34px 0;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
-.footer a{
-  color: white; 
-  font-size: 14px; 
+
+.footer a {
+    color: white;
+    font-size: 14px;
 }
 
-.footer-items{
+.footer-items {
     display: flex;
     flex-direction: column;
     gap: 23px;
