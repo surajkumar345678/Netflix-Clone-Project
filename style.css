@@ -216,3 +216,29 @@ section.first>div :nth-child(2) {
 .faqbox:hover {
     background-color: #414141;
 }
+
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+footer .questions{
+    padding: 34px 0;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a{
+  color: white; 
+  font-size: 14px; 
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
