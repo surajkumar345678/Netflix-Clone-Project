@@ -18,7 +18,8 @@ body {
     height: 95vh;
     position: relative;
 }
-.separation{
+
+.separation {
     max-width: 100vw;
     border-bottom: 8px #232323 solid;
 }
@@ -33,7 +34,7 @@ body {
 }
 
 nav {
-    max-width: 60vw;
+    max-width: 75vw;
     justify-content: space-between;
     margin: auto;
     display: flex;
@@ -42,13 +43,14 @@ nav {
 }
 
 nav img {
-    color: red;
-    width: 130px;
+    color: #e50914;
+    width: 150px;
     position: relative;
     z-index: 10;
 }
 
 nav button {
+    width: 5vw;
     position: relative;
     z-index: 10;
 }
@@ -115,13 +117,17 @@ nav button {
     border-radius: 0.25rem;
     font-weight: 700;
 }
-.btn-red svg{
+
+.btn-red svg {
     padding-left: 0.75rem;
 }
 
 .btn-red-sm {
     background-color: #e50914;
     color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .hero-btn,
@@ -129,7 +135,7 @@ nav button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .main input,
@@ -141,6 +147,16 @@ nav button {
     border-radius: 0.25rem;
     background-color: #0f0f0f99;
     border: 1px solid rgba(245, 245, 245, 0.5);
+}
+
+#lang {
+    font-size: 1rem;
+    color: white;
+    border-radius: 0.25rem;
+    background-color: #0f0f0f99;
+    border: 1px solid rgba(245, 245, 245, 0.5);
+    margin-right: 0.5vw;
+
 }
 
 .main input::placeholder,
@@ -160,11 +176,13 @@ nav button {
     align-items: center;
 }
 
-.secImg, .secImg2 {
+.secImg,
+.secImg2 {
     position: relative;
 }
 
-.secImg img, .secImg2 img {
+.secImg img,
+.secImg2 img {
     width: 555px;
     position: relative;
     z-index: 10;
@@ -176,7 +194,8 @@ nav button {
     right: 67px;
     width: 415px;
 }
-.secImg2 video{
+
+.secImg2 video {
     position: absolute;
     top: 80px;
     right: 100px;
@@ -209,7 +228,7 @@ section.first>div :nth-child(2) {
 
 .faq {
     background-color: black;
-    color:white;
+    color: white;
     text-align: center;
     padding: 35px;
 }
@@ -242,18 +261,15 @@ footer .questions {
     padding: 34px 0;
 }
 
-
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
 
-
-
 @media screen and (max-width: 1300px) {
 
-    nav{
+    nav {
         max-width: 90vw;
     }
 
@@ -281,12 +297,13 @@ footer .questions {
         font-size: 18px;
     }
 
-    .hero-btn, .hero-btn2 {
+    .hero-btn,
+    .hero-btn2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 16px;
+        gap: 10px;
     }
 
     .faq h2 {
@@ -299,14 +316,10 @@ footer .questions {
         padding: 75px 0;
     }
 
-    .footer-item{
+    .footer-item {
         align-items: center;
     }
- 
-
 }
-
-
 
 @media screen and (max-width: 1300px) {
 
@@ -316,7 +329,6 @@ footer .questions {
         gap: 25px;
     }
 }
-
 
 .footer a {
     font-size: 14px;
