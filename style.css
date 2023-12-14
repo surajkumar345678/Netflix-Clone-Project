@@ -159,11 +159,11 @@ nav button {
     align-items: center;
 }
 
-.secImg {
+.secImg, .secImg2 {
     position: relative;
 }
 
-.secImg img {
+.secImg img, .secImg2 img {
     width: 555px;
     position: relative;
     z-index: 10;
@@ -171,9 +171,15 @@ nav button {
 
 .secImg video {
     position: absolute;
-    top: 51px;
-    right: 0;
-    width: 555px;
+    top: 120px;
+    right: 67px;
+    width: 415px;
+}
+.secImg2 video{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 350px;
 }
 
 section.first>div {
